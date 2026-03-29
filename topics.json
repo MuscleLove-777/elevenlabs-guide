@@ -1,0 +1,58 @@
+{
+  "ElevenLabs 使い方": [
+    {"keyword": "ElevenLabs 始め方 2026", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 無料版でできること", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs テキスト読み上げ 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 音声ダウンロード方法", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs 日本語音声の使い方", "priority": "medium", "status": "pending"}
+  ],
+  "ElevenLabs 料金・プラン": [
+    {"keyword": "ElevenLabs 料金プラン 2026 比較", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 無料 有料 違い", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs Pro プラン 機能", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs クレジット 仕組み", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs 学生割引 教育プラン", "priority": "low", "status": "pending"}
+  ],
+  "ボイスクローン": [
+    {"keyword": "ElevenLabs ボイスクローン やり方", "priority": "high", "status": "pending"},
+    {"keyword": "AI 自分の声 コピー 方法", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs Voice Cloning 精度", "priority": "high", "status": "pending"},
+    {"keyword": "ボイスクローン 商用利用 注意点", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs Professional Voice Clone", "priority": "medium", "status": "pending"}
+  ],
+  "ElevenLabs 最新ニュース": [
+    {"keyword": "ElevenLabs 評価額 110億ドル 成長", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 新機能 2026 まとめ", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 音声AI 市場動向", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 多言語対応 アップデート", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs 資金調達 投資家", "priority": "medium", "status": "pending"}
+  ],
+  "AI音声合成テクニック": [
+    {"keyword": "AI ナレーション 自動化 やり方", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs 感情表現 音声 コツ", "priority": "high", "status": "pending"},
+    {"keyword": "AI音声 高品質 設定方法", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs 多言語 音声合成 テクニック", "priority": "medium", "status": "pending"},
+    {"keyword": "AI音声 ポッドキャスト 作り方", "priority": "medium", "status": "pending"}
+  ],
+  "ElevenLabs API": [
+    {"keyword": "ElevenLabs API 入門ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs Python SDK 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs API 料金 従量課金", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs WebSocket リアルタイム音声", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs API サンプルコード集", "priority": "medium", "status": "pending"}
+  ],
+  "AI音声ツール比較": [
+    {"keyword": "ElevenLabs vs Amazon Polly 比較 2026", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs vs Google Cloud TTS 比較", "priority": "high", "status": "pending"},
+    {"keyword": "AI音声合成 おすすめ ランキング 2026", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs vs VOICEVOX 比較", "priority": "medium", "status": "pending"},
+    {"keyword": "AI TTS 日本語 音質 比較", "priority": "medium", "status": "pending"}
+  ],
+  "ElevenLabs 活用事例": [
+    {"keyword": "ElevenLabs YouTube ナレーション 活用", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs オーディオブック 作成", "priority": "high", "status": "pending"},
+    {"keyword": "ElevenLabs ビジネス 企業 活用事例", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs ゲーム開発 音声 活用", "priority": "medium", "status": "pending"},
+    {"keyword": "ElevenLabs 教育 eラーニング 活用", "priority": "medium", "status": "pending"}
+  ]
+}
