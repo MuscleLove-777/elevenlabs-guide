@@ -1,0 +1,40 @@
+{
+  "title": "ElevenLabs 音声クローン × 商用利用ガイドライン徹底解説2026",
+  "content": "# ElevenLabs 音声クローン × 商用利用ガイドライン徹底解説2026\n\n## この記事でわかること\n- ElevenLabs の音声クローン機能の種類（Instant / Professional）と使い分け\n- 2026年Q2時点で押さえるべき商用利用ガイドラインの要点\n- トラブルを避けるための同意取得・権利表記・社内運用ルール\n\n## 結論\nElevenLabs の音声クローンは2026年Q2時点で実用品質に達していますが、商用利用は「同意の証跡」「公開範囲」「他者の声を使わないこと」の3点さえ守れば自社サービスや YouTube 収益化動画でも安全に使えます。逆にこの3点のいずれかでも欠けると、ElevenLabs 側の利用規約違反だけでなく、現実の名誉棄損 / パブリシティ権 / 著作隣接権 リスクが直撃するので、本記事で運用ガイドを固めてから本番投入することを強く推奨します。\n\n## 本題\n\n### 音声クローンの種類と精度\nElevenLabs のクローンは執筆時点で大きく2系統あります。\n\n- **Instant Voice Cloning (IVC)**: 数十秒〜数分の音声から生成、精度は「似ている」レベル\n- **Professional Voice Cloning (PVC)**: 30分以上の高品質収録から学習、本人と区別が難しいレベル\n\n中級者がまず触るのは IVC ですが、商用で長尺ナレーションに使うなら PVC が現実的です。PVC は学習に時間がかかる代わりに、抑揚・呼吸・笑いなどのニュアンスが格段に自然になります。\n\n### 商用利用の前提: 規約と料金プラン\nElevenLabs の利用規約は執筆時点で「商用利用は有料プラン契約が前提」です。無料プランで生成した音声を商用利用することは禁止されているため、まず Creator 以上のプランに加入していることを確認してください。料金プランごとの利用範囲は公式の Terms と Pricing ページを必ず原本確認してください（サービス更新が早い領域です）。\n\n### 同意取得: 自分の声でも書類に残す\n中級者がやりがちなミスが「自分の声だから同意書は不要」と判断することです。組織で運用する以上、社内体制として次の同意フローは必ず仕込みます。\n\n- 声の提供者本人がフォームで同意（用途・公開範囲・取り下げ条件を明記）\n- 同意フォームの提出日時・IP・電子署名を保存\n- 取り下げ手続きフロー（モデル削除・既存生成物の利用停止）を文書化\n\n特に取り下げ条件は、提供者が後から考えを変えた場合の運用コストを大きく左右するので、最初に「取り下げの場合は今後の新規生成のみ停止する」のような線引きを明文化しておきます。\n\n### 他者の声を使う場合の地雷\n他者（声優・タレント・友人）の声をクローンする場合、ElevenLabs の規約では本人の明示的な同意が必須です。これは IVC でも PVC でも同じ。さらに日本国内ではパブリシティ権・著作隣接権の問題が乗ってきます。\n\n中級者向けの安全側ルール:\n\n- 著名人の声は同意があっても収録方法と用途を弁護士相談の上で運用\n- 一般人の声は書面同意 + 用途明記 + 報酬関係を契約書化\n- 過去の対談音源を学習データに使うのは避ける（収録時の合意範囲外になりやすい）\n\n### 公開コンテンツでの権利表記\n2026年Q2時点で、ElevenLabs は出力音声に「AI生成」のクレジット表示を義務付ける運用ではありませんが、視聴者保護とプラットフォーム規約（YouTube の synthetic content 表示など）の観点から、商用公開時には次の表記を入れる運用が無難です。\n\n- 「本動画には AI 生成音声が含まれます」\n- 該当箇所のクレジット（ナレーション: AI Voice based on ◯◯ with consent）\n\nこれにより、第三者から「本人を騙っている」と誤解されるリスクを大きく下げられます。\n\n### 社内運用ルールの作り方\n中級者が個人で使う分には不要ですが、チーム運用に乗せる場合は次の内部規定を1ページにまとめておきます。\n\n1. 利用可能プラン: Creator / Pro / Scale のいずれか\n2. 同意書テンプレート: 用途別（社内研修 / 外部マーケ / YouTube）\n3. モデル管理担当: 1名指名し、退職時の引き継ぎ手順を明記\n4. ログ保存: 生成時刻・利用者・用途・スクリプトを最低1年保存\n5. インシデント対応: 不正利用が発覚した場合の停止 / 通知フロー\n\nこれだけ整えておけば、社外監査や本人からの問い合わせにも即応できます。\n\n## よくある質問（FAQ）\n\n### Q1: 自分の声をクローンして YouTube 収益化動画に使えますか？\nA1: 有料プラン契約 + 自分の声であれば、ElevenLabs 規約上は問題ありません。加えて YouTube 側の synthetic content 開示要件（執筆時点で実質強化中）に従い、説明欄や動画内表示でAI音声であることを明示するのが安全です。\n\n### Q2: 故人の声をクローンして使ってもよいですか？\nA2: ElevenLabs の規約と、日本国内のパブリシティ権・遺族感情・名誉感情まで関わるため、安易に避けるのが無難です。どうしても必要な場合は遺族の書面同意と弁護士相談がセットになります。\n\n### Q3: ElevenLabs で作った音声を別サービス（VTuber 配信など）で使えますか？\nA3: 利用範囲の解釈はプランと用途で異なります。執筆時点では商用プランで生成した音声の二次利用は、ElevenLabs 規約と二次サービス側の規約の両方で許諾範囲を確認するのが必須です。両方OKであれば運用可能、どちらか不可ならリスクが残ります。\n\n## まとめ\nElevenLabs の音声クローンを商用で使うなら「有料プラン契約」「同意の証跡」「他者の声に手を出さない」の3点を最初に固めることが最重要です。中級者は技術的に動かせる段階を超えているはずなので、ここから先は権利と運用の整備が品質と事業継続性を分けるポイントになります。本記事のチェックリストをそのまま社内ドキュメント化すれば、明日から安心して運用に乗せられます。\n",
+  "meta_description": "ElevenLabs の音声クローンを商用で使うための同意取得・権利表記・社内運用ルールを中級クリエイター向けに解説。Instant / Professional の使い分けとトラブル回避策を網羅します。",
+  "tags": [
+    "ElevenLabs",
+    "音声クローン",
+    "商用利用",
+    "ライセンス",
+    "AIナレーション"
+  ],
+  "slug": "2026-04-29-elevenlabs-voice-clone-commercial-license-2026",
+  "faq": [
+    {
+      "question": "Q1: 自分の声をクローンして YouTube 収益化動画に使えますか？",
+      "answer": "有料プラン契約 + 自分の声であれば、ElevenLabs 規約上は問題ありません。加えて YouTube 側の synthetic content 開示要件（執筆時点で実質強化中）に従い、説明欄や動画内表示でAI音声であることを明示するのが安全です。"
+    },
+    {
+      "question": "Q2: 故人の声をクローンして使ってもよいですか？",
+      "answer": "ElevenLabs の規約と、日本国内のパブリシティ権・遺族感情・名誉感情まで関わるため、安易に避けるのが無難です。どうしても必要な場合は遺族の書面同意と弁護士相談がセットになります。"
+    },
+    {
+      "question": "Q3: ElevenLabs で作った音声を別サービス（VTuber 配信など）で使えますか？",
+      "answer": "利用範囲の解釈はプランと用途で異なります。執筆時点では商用プランで生成した音声の二次利用は、ElevenLabs 規約と二次サービス側の規約の両方で許諾範囲を確認するのが必須です。両方OKであれば運用可能、どちらか不可ならリスクが残ります。"
+    }
+  ],
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "keyword": "ElevenLabs",
+  "category": "ElevenLabs 実践",
+  "generated_at": "2026-04-29T08:32:42.892853",
+  "seo_score": 85,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"ElevenLabs 音声クローン × 商用利用ガイドライン徹底解説2026\",\n  \"description\": \"ElevenLabs の音声クローンを商用で使うための同意取得・権利表記・社内運用ルールを中級クリエイター向けに解説。Instant / Professional の使い分けとトラブル回避策を網羅します。\",\n  \"url\": \"https://musclelove-777.github.io/elevenlabs-guide/articles/2026-04-29-elevenlabs-voice-clone-commercial-license-2026.html\",\n  \"datePublished\": \"2026-04-29T08:32:42.892853\",\n  \"dateModified\": \"2026-04-29T08:32:42.892853\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"wave37c-ai-articles-2\"\n  },\n  \"keywords\": \"ElevenLabs, 音声クローン, 商用利用, ライセンス, AIナレーション\",\n  \"articleSection\": \"ElevenLabs 実践\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q1: 自分の声をクローンして YouTube 収益化動画に使えますか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"有料プラン契約 + 自分の声であれば、ElevenLabs 規約上は問題ありません。加えて YouTube 側の synthetic content 開示要件（執筆時点で実質強化中）に従い、説明欄や動画内表示でAI音声であることを明示するのが安全です。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q2: 故人の声をクローンして使ってもよいですか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"ElevenLabs の規約と、日本国内のパブリシティ権・遺族感情・名誉感情まで関わるため、安易に避けるのが無難です。どうしても必要な場合は遺族の書面同意と弁護士相談がセットになります。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Q3: ElevenLabs で作った音声を別サービス（VTuber 配信など）で使えますか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"利用範囲の解釈はプランと用途で異なります。執筆時点では商用プランで生成した音声の二次利用は、ElevenLabs 規約と二次サービス側の規約の両方で許諾範囲を確認するのが必須です。両方OKであれば運用可能、どちらか不可ならリスクが残ります。\"\n      }\n    }\n  ]\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/elevenlabs-guide\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"ElevenLabs 実践\",\n      \"item\": \"https://musclelove-777.github.io/elevenlabs-guide/category/ElevenLabs 実践\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"ElevenLabs 音声クローン × 商用利用ガイドライン徹底解説2026\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": false,
+  "affiliate_count": 0
+}
